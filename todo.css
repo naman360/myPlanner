@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	 
+}
+
+
+
+/*Header */
+
+#header{
+	background-color:#3CBC8D ;
+    color: white;
+    width: 100%;
+	text-align: center;
+	letter-spacing: 1.8px;
+	border-bottom-right-radius: 20%;
+	border-bottom-left-radius: 20%;
+    font-family: 'Montserrat', sans-serif;
+    animation:headerStyle .8s linear;
+	}
+	@keyframes headerStyle{
+		0%{
+		
+			height: 0px;
+		}
+		100%{
+			
+			height:85px;
+		}
+	}
+
+
+
+#headline{
+    font-size: 2.4em;
+    text-align: center;
+}
+
+#tagline{
+	font-size: 1.6em;
+}
+
+
+
+
+
+/*Addbox and Addbutton*/
+#content{
+	margin-left: 22%;
+	margin-top: 6%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#namebox{
+	border-radius: 200px;
+	background-color:transparent;
+	width: 40%;
+	font-size: 1.4em;
+	height: 25px;
+	outline: none;
+	padding: 0.4% 1.2% 0.4% 1.2%;
+	border:3px solid grey;
+}
+#namebox:focus{
+	border:3px solid #555;
+}
+
+
+#add{
+	background-color: #3CBC8D;
+	margin-left: 4%;
+	border:none;
+	width: 20%;
+	height: 30px;
+    border-radius: 200px;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#add:hover{
+	cursor: pointer;
+	background-color: black;
+}
+
+
+
+/*Todo List*/
+ul{
+	margin-top: 3%;
+	font-size: 1.4em;
+	margin-left: 22%;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+ul li{
+	margin-bottom: 3%;
+}
+.delet{
+	background-color:#3CBC8D ;
+	margin-right: 4%;
+	padding: .5% 1.6% .5% 1.6%;
+    border-radius: 40%;
+    font-size: 1.3em;
+    color: white;
+}
+.delet:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
+
+
+
+
+
+/*Footer*/
+
+#footer{
+	background-color: #3CBC8D;
+    width: 100%;
+    color: white;
+	text-align: center;
+	letter-spacing: 1.8px;
+	border-top-right-radius: 20%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+	border-top-left-radius: 20%;
+    font-family: 'Montserrat', sans-serif;
+    animation:styleFooter .8s linear;
+}
+@keyframes styleFooter{
+	0%{
+	height: 0px;
+    }
+	100%{
+		height: 40px;
+	}
+}
+
+#footer a{
+	text-decoration: none;
+	color: black;
+}
+#footer a:hover{
+	color: blue;
+}
