@@ -1,2 +1,2 @@
 # myPlanner
-A basic todo application that lets you add tasks and save it for next session too.
+This ToDo web application uses local storage for saving your tasks and retrieving it from the memory.
