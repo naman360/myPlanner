@@ -17,7 +17,7 @@
 	border-bottom-right-radius: 20%;
 	border-bottom-left-radius: 20%;
     font-family: 'Montserrat', sans-serif;
-    animation:headerStyle .8s linear;
+    animation:headerStyle .8s ease-in-out;
 	}
 	@keyframes headerStyle{
 		0%{
@@ -130,7 +130,7 @@ ul li{
 
 	border-top-left-radius: 20%;
     font-family: 'Montserrat', sans-serif;
-    animation:styleFooter .8s linear;
+    animation:styleFooter .8s ease-in-out;
 }
 @keyframes styleFooter{
 	0%{
