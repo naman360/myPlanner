@@ -61,6 +61,7 @@
 	outline: none;
 	padding: 0.4% 1.2% 0.4% 1.2%;
 	border:3px solid grey;
+	font-family: 'Montserrat', sans-serif;
 }
 #namebox:focus{
 	border:3px solid #555;
